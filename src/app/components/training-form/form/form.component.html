@@ -1,0 +1,76 @@
+<section>
+  <h2 class="section-title">Professional Information</h2>
+  <form class="example-form" [formGroup]="myForm">
+    <div class="row">
+      <div class="col">
+        <mat-form-field appearance="outline">
+          <mat-label>First Name</mat-label>
+          <input matInput required formControlName="firstName" />
+          <mat-error>Please enter your first name</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field appearance="outline" class="example-full-width">
+          <mat-label>Last Name</mat-label>
+          <input matInput required formControlName="lastName" />
+          <mat-error>Please enter your last name</mat-error>
+        </mat-form-field>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <mat-form-field appearance="outline" class="example-full-width">
+          <mat-label>Phone</mat-label>
+          <input matInput required formControlName="phone" />
+          <mat-error>Please enter your phone number</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field appearance="outline" class="example-full-width">
+          <mat-label>Company</mat-label>
+          <input matInput required formControlName="company" />
+          <mat-error>Please enter a company</mat-error>
+        </mat-form-field>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <mat-form-field appearance="outline" class="example-full-width">
+          <mat-label>Company Email</mat-label>
+          <input matInput required formControlName="companyEmail" />
+          <mat-error>Please enter a valid email</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field appearance="outline">
+          <mat-label>JOB TYPE</mat-label>
+          <mat-select required formControlName="jobType">
+            <mat-option value="Education Executive / Senior Management"
+              >Education Executive / Senior Management</mat-option
+            >
+            <mat-option value="Operations / Maintenance"
+              >Operations / Maintenance</mat-option
+            >
+            <mat-option value="Purchasing / Procurement"
+              >Purchasing / Procurement</mat-option
+            >
+            <mat-option value="Technical / Engineering"
+              >Technical / Engineering</mat-option
+            >
+            <mat-option value="Other">Other</mat-option>
+          </mat-select>
+          <mat-error>Please select a job type</mat-error>
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col" style="margin-top: 16px">
+        <mat-form-field appearance="outline">
+          <mat-label>Special Request</mat-label>
+          <input matInput required formControlName="specialRequest" />
+        </mat-form-field>
+      </div>
+    </div>
+  </form>
+</section>

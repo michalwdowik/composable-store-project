@@ -1,0 +1,15 @@
+<section>
+  <h2 class="section-title">PASS Training Request</h2>
+  <div class="paragraph-wrapper">
+    <div *ngFor="let paragraph of paragraph$ | async">
+      <h2 class="paragraph-title">
+        {{ paragraph?.title }}
+      </h2>
+
+      <p class="paragraph-description">
+        {{ paragraph?.description }}
+      </p>
+    </div>
+  </div>
+  <p class="info-message">Fields marked with an asterisk (*) are required.</p>
+</section>

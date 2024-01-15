@@ -1,0 +1,13 @@
+<section class="courseselector-wrapper">
+  <label id="courseselestor-grouplabel">Select a course*</label>
+  <mat-checkbox *ngFor="let course of course$ | async">
+    <h3>{{ course?.name }}</h3>
+    <h4>Date</h4>
+    <p>{{ course?.date }}</p>
+    <h4>Location</h4>
+    <p>{{ course?.location }}</p>
+    <h4>Registration Deadline</h4>
+    <p>{{ course?.deadline }}</p>
+  </mat-checkbox>
+  <!-- <mat-error> Please select at least one</mat-error> -->
+</section>

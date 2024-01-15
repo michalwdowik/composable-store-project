@@ -1,0 +1,46 @@
+.section-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-right: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  color: rgb(89, 89, 89);
+}
+
+.swagelok-polska {
+  color: rgb(89, 89, 89);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.data {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  // border: 2px red solid;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.service-button {
+  border: 2px rgb(0, 77, 158) solid !important;
+  color: rgb(0, 77, 158);
+  font-size: 16px;
+  border-radius: 999px !important;
+  padding: 10px 22px !important;
+  line-height: 1.375;
+  font-weight: 600;
+  width: max-content;
+  margin-top: 16px;
+}
+
+.service-button:hover {
+  color: #fff;
+  background-color: rgb(0, 77, 158);
+  transition: all 0.2s ease-in-out;
+}

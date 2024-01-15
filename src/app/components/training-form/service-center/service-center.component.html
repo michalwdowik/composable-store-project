@@ -1,0 +1,55 @@
+<section>
+  <h2 class="section-title">Select Your Sales & Service Center</h2>
+  <p style="margin-bottom: 16px">
+    Your local authorized Swagelok sales and service center has already been
+    selected. Please continue filling out the form below.
+  </p>
+  <p style="font-size: 14px">Your Local Sales & Service Center</p>
+  <p class="swagelok-polska">Swagelok Polska</p>
+
+  <div
+    style="display: flex; gap: 8px; flex-direction: column"
+    *ngFor="let service of services$ | async">
+    <div class="data">
+      <!-- <app-location-icon></app-location-icon> -->
+      <div>
+        <p>
+          {{ service?.address?.name }}
+        </p>
+        <p>
+          {{ service?.address?.street }}
+        </p>
+        <p>
+          {{ service?.address?.city }}
+        </p>
+        <p>
+          {{ service?.address?.code }}
+        </p>
+      </div>
+    </div>
+
+    <div class="data">
+      <!-- <app-phone-icon></app-phone-icon> -->
+      <p>
+        {{ service?.phoneNumber }}
+      </p>
+    </div>
+
+    <div class="data">
+      <!-- <app-mail-icon></app-mail-icon> -->
+      <p>
+        {{ service?.mail }}
+      </p>
+    </div>
+
+    <div class="data">
+      <!-- <app-website-icon></app-website-icon> -->
+      <p>
+        {{ service?.website }}
+      </p>
+    </div>
+    <button mat-stroked-button class="service-button">
+      CHANGE THE SALES & SERVICE CENTER
+    </button>
+  </div>
+</section>

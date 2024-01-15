@@ -1,17 +1,17 @@
-import { NgModule } from '@angular/core';
-import { translationChunksConfig, translations } from '@spartacus/assets';
+import { NgModule } from '@angular/core'
+import { translationChunksConfig, translations } from '@spartacus/assets'
 import {
   FeaturesConfig,
   I18nConfig,
   OccConfig,
   provideConfig,
   SiteContextConfig,
-} from '@spartacus/core';
+} from '@spartacus/core'
 import {
   defaultCmsContentProviders,
   layoutConfig,
   mediaConfig,
-} from '@spartacus/storefront';
+} from '@spartacus/storefront'
 
 @NgModule({
   declarations: [],
@@ -23,7 +23,7 @@ import {
     provideConfig(<OccConfig>{
       backend: {
         occ: {
-          baseUrl: 'https://192.168.1.52:9002',
+          baseUrl: 'https://192.168.1.45:9002',
         },
       },
     }),

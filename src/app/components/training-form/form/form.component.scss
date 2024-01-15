@@ -1,0 +1,29 @@
+.section-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-right: 32px;
+  font-weight: 700;
+  color: rgb(89, 89, 89);
+  line-height: 42px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+}
+
+.col {
+  flex: 1;
+  padding: 0 8px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.example-form {
+  width: 100%;
+  max-width: 750px;
+}

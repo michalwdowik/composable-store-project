@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "title": "Product Features",
+      "description": "Explore the myriad features of our cutting-edge product! From state-of-the-art technology to user-friendly interfaces, our product boasts an impressive array of features designed to enhance your experience. Dive into a world of innovation and discover how our product stands out from the rest."
+    },
+    {
+      "title": "Delivery Options",
+      "description": "Experience convenience with our flexible delivery options! We understand the importance of timely deliveries, and that's why we offer a range of choices to suit your needs. Whether you prefer standard shipping, express delivery, or even same-day delivery in select areas, we've got you covered. Stay informed with real-time tracking and enjoy the ease of our hassle-free delivery services."
+    },
+    {
+      "title": "Secure Payment Methods",
+      "description": "Shop with confidence using our secure payment methods! Your financial security is our top priority, and we provide a variety of payment options to ensure a seamless and protected transaction process. From credit/debit cards to digital wallets and online banking, choose the method that suits you best. Rest easy knowing that your payment details are encrypted and your transactions are safeguarded at every step."
+    }
+  ],
+  "course": [
+    {
+      "name": "november-virtual",
+      "date": "June 26-27, 2024",
+      "location": "virtual",
+      "deadline": "May 29, 2024"
+    },
+    {
+      "name": "december-virtual",
+      "date": "December 19, 2023 - February 22, 2024",
+      "location": "virtual",
+      "deadline": "February 13, 2024"
+    }
+  ],
+  "service": [
+    {
+      "address": {
+        "name": "Kosciuszko Business Point",
+        "street": "Kosciuszki 71",
+        "city": "Torun",
+        "code": "87-100"
+      },
+      "phoneNumber": "600500400",
+      "mail": "info@poland.swagelok.com",
+      "website": "https://poland.dev.swagelok.com"
+    }
+  ]
+}
